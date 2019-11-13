@@ -1,1 +1,1 @@
-# awp_neuronart_project
+# Generation of artifical artwork
