@@ -27,19 +27,14 @@ def scrape_momuk_images_from_website(directory):
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
             if line_counter != 0:
-                objid = row[0]
-                objurl = row[19]
-                filename = directory + objid + ".jpeg"
-                print("Get image with id ", row[0], "from url: ", objurl)
+                obj_id = row[0]
+                obj_url = row[19]
+                filename = directory + obj_id + ".jpeg"
                 try:
-                    urllib.request.urlretrieve(objurl, filename)
+                    urllib.request.urlretrieve(obj_url, filename)
                 except FileNotFoundError as err:
                     print(err)  # something wrong with local path
                 except HTTPError as err:
                     print(err)  # something wrong with url
 
             line_counter += 1
-
-
-# clear_images_from_folder_by_dimensions(32, 250, "/home/steffen/PycharmProjects/neuronart/raw_data")
-# scrape_momuk_images_from_website("momunk_image_")
