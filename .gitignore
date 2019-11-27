@@ -16,7 +16,6 @@ landscape_paintings.tar.gz
 *.jpeg
 *.mdb
 
-
 # Distribution / packaging
 .Python
 build/

@@ -93,7 +93,6 @@ class WgaspiderSpider(scrapy.Spider):
     def parse(self, response):
         """
         The parse method get automatically called by scrapy and should no be used manuel.
-
         :param response: The http response of the actual scraped website
         :return: yields for scrapy
         """
