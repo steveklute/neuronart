@@ -2,10 +2,13 @@
   <dictionary name="steffen">
     <words>
       <w>cifar</w>
+      <w>geckodriver</w>
       <w>kunstwerke</w>
       <w>lmdb</w>
       <w>momok</w>
       <w>momuk</w>
+      <w>scrapy</w>
+      <w>wgaspider</w>
     </words>
   </dictionary>
 </component>

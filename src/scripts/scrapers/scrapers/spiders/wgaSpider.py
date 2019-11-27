@@ -4,7 +4,6 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
 import urllib.request
-from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
@@ -23,12 +22,11 @@ class WgaspiderSpider(scrapy.Spider):
     'scrapy crawl wgaSpider -a category=painting -a typeof=landscape -a folder=./mydata/' from the commandline
     in the root of the project.
 
-    Keyword arguments:
-    category -- the category of the artworks (default is any)
-    typeof -- the type of the artworks (default is any)
-    folder -- the folder, where the images will be saved (default is actual folder)
-    max_site_load_delay -- after every click on the website the next operation must be delayed. Change this value depending
-                        on computer and internet speed (default is 2.5)
+    :param category -- the category of the artworks (default is any)
+    :param typeof -- the type of the artworks (default is any)
+    :param folder -- the folder, where the images will be saved (default is actual folder)
+    :param max_site_load_delay -- after every click on the website the next operation must be delayed. Change this value
+                                    depending on computer and internet speed (default is 2.5)
 
     all categories: any, painting, sculpture, graphics, illumination, architecture, ceramics, furniture, glassware,
                     metalwork, mosaic, stained-glass, tapestry, others
@@ -68,6 +66,12 @@ class WgaspiderSpider(scrapy.Spider):
         self.driver.minimize_window()
 
     def restart_browser(self, response):
+        """
+        Restarts the browser instance to free ram.
+
+        :param response: The http response of the actual scraped website
+        :return: nothing
+        """
         # close driver
         self.driver.close()
         self.driver.quit()
@@ -88,7 +92,8 @@ class WgaspiderSpider(scrapy.Spider):
 
     def parse(self, response):
         """
-        The parse method get automatically called by scapy and should no be used manuel.
+        The parse method get automatically called by scrapy and should no be used manuel.
+
         :param response: The http response of the actual scraped website
         :return: yields for scrapy
         """
@@ -162,6 +167,12 @@ class WgaspiderSpider(scrapy.Spider):
         self.driver.quit()
 
     def iterate_pages(self, number_pages):
+        """
+        Iterates through search result pages.
+
+        :param number_pages: The number of pages which should be skipped
+        :return: nothing
+        """
         for i in range(number_pages):
             # get next page button
             next_page_button = self.driver.find_elements_by_xpath(
@@ -172,10 +183,13 @@ class WgaspiderSpider(scrapy.Spider):
 
             # wait for page to load
             self.driver.implicitly_wait(self.max_site_load_delay)
-            # WebDriverWait(self.driver, self.max_site_load_delay).until(
-            #    ec.visibility_of_element_located((By.XPATH, '/html/frameset/frame[2]')))
 
     def get_through_search(self):
+        """
+        Navigates the scraper from home screen to search engine, enters fill boxes and starts search to get results.
+
+        :return: True if successful
+        """
         # hit enter button, which is 'hidden' from bots, by manuel click
         img_over_enter_button = self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td[1]/img')
         ActionChains(self.driver).move_to_element_with_offset(img_over_enter_button, 35, 33).click().perform()

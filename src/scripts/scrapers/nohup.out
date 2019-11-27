@@ -1,0 +1,42 @@
+geckodriver.log
+nohup.out
+scrapers
+scrapy.cfg
+geckodriver.log
+nohup.out
+scrapers
+scrapy.cfg
+Paketlisten werden gelesen...
+E: Konnte Sperre /var/lib/apt/lists/lock nicht bekommen - open (11: Die Ressource ist zur Zeit nicht verfügbar)
+E: Das Verzeichnis /var/lib/apt/lists/ kann nicht gesperrt werden.
+W: Ziel Packages (non-free/binary-amd64/Packages) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Packages (non-free/binary-i386/Packages) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Packages (non-free/binary-all/Packages) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Translations (non-free/i18n/Translation-de_DE) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Translations (non-free/i18n/Translation-de) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Translations (non-free/i18n/Translation-en) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11 (non-free/dep11/Components-amd64.yml) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11 (non-free/dep11/Components-all.yml) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons-small (non-free/dep11/icons-48x48.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons (non-free/dep11/icons-64x64.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons-hidpi (non-free/dep11/icons-64x64@2.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons-large (non-free/dep11/icons-128x128.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel CNF (non-free/cnf/Commands-amd64) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel CNF (non-free/cnf/Commands-all) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+Paketlisten werden gelesen...
+E: Konnte Sperre /var/lib/apt/lists/lock nicht bekommen - open (11: Die Ressource ist zur Zeit nicht verfügbar)
+E: Das Verzeichnis /var/lib/apt/lists/ kann nicht gesperrt werden.
+W: Ziel Packages (non-free/binary-amd64/Packages) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Packages (non-free/binary-i386/Packages) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Packages (non-free/binary-all/Packages) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Translations (non-free/i18n/Translation-de_DE) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Translations (non-free/i18n/Translation-de) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel Translations (non-free/i18n/Translation-en) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11 (non-free/dep11/Components-amd64.yml) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11 (non-free/dep11/Components-all.yml) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons-small (non-free/dep11/icons-48x48.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons (non-free/dep11/icons-64x64.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons-hidpi (non-free/dep11/icons-64x64@2.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel DEP-11-icons-large (non-free/dep11/icons-128x128.tar) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel CNF (non-free/cnf/Commands-amd64) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
+W: Ziel CNF (non-free/cnf/Commands-all) ist mehrfach konfiguriert in /etc/apt/sources.list:52 und /etc/apt/sources.list.d/opera-stable.list:4
