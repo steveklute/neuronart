@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3cd561-7cb7-45e8-b010-388f32673f34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/steffen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/steffen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f3cd561-7cb7-45e8-b010-388f32673f34" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gan/gan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="241" column="77" lean-forward="true" selection-start-line="241" selection-start-column="77" selection-end-line="241" selection-end-column="77" />
+            <state relative-caret-position="368">
+              <caret line="289" column="39" lean-forward="true" selection-start-line="289" selection-start-column="39" selection-end-line="289" selection-end-column="39" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <marker date="1574858916717" expanded="true" signature="4009:4625" ph="..." />
@@ -283,6 +278,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -415,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gan/gan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="241" column="77" lean-forward="true" selection-start-line="241" selection-start-column="77" selection-end-line="241" selection-end-column="77" />
+        <state relative-caret-position="368">
+          <caret line="289" column="39" lean-forward="true" selection-start-line="289" selection-start-column="39" selection-end-line="289" selection-end-column="39" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <marker date="1574858916717" expanded="true" signature="4009:4625" ph="..." />
