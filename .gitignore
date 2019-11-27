@@ -11,6 +11,7 @@ src/gan/weights/discriminator/
 src/gan/weights/generator/
 src/gan/images/
 src/scripts/dataProcessing/data/
+landscape_paintings.tar.gz
 
 
 # Distribution / packaging
