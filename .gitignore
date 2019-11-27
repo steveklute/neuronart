@@ -12,6 +12,9 @@ src/gan/weights/generator/
 src/gan/images/
 src/scripts/dataProcessing/data/
 landscape_paintings.tar.gz
+*.jpg
+*.jpeg
+*.mdb
 
 
 # Distribution / packaging
