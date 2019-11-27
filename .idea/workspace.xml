@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3cd561-7cb7-45e8-b010-388f32673f34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/dataProcessing/getDataFromCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/dataProcessing/getDataFromCSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f3cd561-7cb7-45e8-b010-388f32673f34" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,32 +12,41 @@
     <session id="737780402">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="265" />
-          <entry key="py" value="6452" />
+          <entry key="Python Console" value="599" />
+          <entry key="py" value="18572" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6717" />
+          <entry key="Python" value="19171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="png" value="23" />
+          <entry key="py" value="17" />
+          <entry key="test" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Image" value="23" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -49,28 +54,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py">
+        <entry file="file://$PROJECT_DIR$/src/gan/gan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="368">
+              <caret line="289" column="39" lean-forward="true" selection-start-line="289" selection-start-column="39" selection-end-line="289" selection-end-column="39" />
               <folding>
-                <element signature="e#24#37#0" expanded="true" />
-                <marker date="1574104943718" expanded="true" signature="2932:3561" ph="..." />
-                <marker date="1574104943718" expanded="true" signature="6526:7077" ph="..." />
-                <marker date="1574104943718" expanded="true" signature="7106:7107" ph="..." />
-                <marker date="1574104943718" expanded="true" signature="7106:7115" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/dataProcessing/getDataFromCSV.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
+                <marker date="1574858916717" expanded="true" signature="4009:4625" ph="..." />
+                <marker date="1574858916717" expanded="true" signature="5007:5012" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,11 +70,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="345">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1574014920876" expanded="true" signature="671:752" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,8 +97,13 @@
         <option value="$PROJECT_DIR$/src/test.py" />
         <option value="$PROJECT_DIR$/src/scripts/getDataFromCSV.py" />
         <option value="$PROJECT_DIR$/src/scripts/dataProcessing/getDataFromCSV.py" />
-        <option value="$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py" />
+        <option value="$PROJECT_DIR$/src/gan/acgan.py" />
+        <option value="$PROJECT_DIR$/src/gan/gantest.py" />
+        <option value="$PROJECT_DIR$/src/gan/gangan.py" />
         <option value="$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py" />
+        <option value="$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py" />
+        <option value="$PROJECT_DIR$/src/gan/gan2.py" />
+        <option value="$PROJECT_DIR$/src/gan/gan.py" />
       </list>
     </option>
   </component>
@@ -142,6 +137,19 @@
               <item name="neuronart" type="b2602c69:ProjectViewProjectNode" />
               <item name="neuronart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neuronart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neuronart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gan" type="462c0819:PsiDirectoryNode" />
+              <item name="weights" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neuronart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neuronart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,6 +166,23 @@
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="scrapers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="neuronart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neuronart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapers" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neuronart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neuronart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapers" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapers" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scripts/getDataFromCSV.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,11 +240,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/scripts/dataProcessing" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/scripts/getDataFromCSV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +267,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,11 +289,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2132753" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -267,6 +301,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/gan/gan.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/scripts/getDataFromCSV.py" />
@@ -284,23 +329,19 @@
     <entry file="file://$PROJECT_DIR$/src/scripts/scrapers/scrapers/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <marker date="1574104943718" expanded="true" signature="2932:3561" ph="..." />
-            <marker date="1574104943718" expanded="true" signature="6526:7077" ph="..." />
-            <marker date="1574104943718" expanded="true" signature="7106:7107" ph="..." />
-            <marker date="1574104943718" expanded="true" signature="7106:7115" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/mnist_0.png" />
+    <entry file="file://$PROJECT_DIR$/src/gan/gangan.py" />
+    <entry file="file://$PROJECT_DIR$/src/gan/acgan.py" />
+    <entry file="file://$PROJECT_DIR$/src/gan/gantest.py" />
+    <entry file="file://$PROJECT_DIR$/src/gan/images/gen_image0.png" />
+    <entry file="file://$PROJECT_DIR$/src/gan/images/0.png" />
+    <entry file="file://$PROJECT_DIR$/src/gan/plot_epoch_002_generated.png" />
+    <entry file="file://$PROJECT_DIR$/src/gan/plot_epoch_003_generated.png" />
+    <entry file="file://$PROJECT_DIR$/src/gan/plot_epoch_001_generated.png" />
+    <entry file="file://$PROJECT_DIR$/src/gan/images/test" />
     <entry file="file://$PROJECT_DIR$/src/scripts/dataProcessing/getDataFromCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="115">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -308,13 +349,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/scrapers/scrapers/spiders/wgaSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/gan2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6279">
+          <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_003_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_004_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_005_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_006_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_007_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_008_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_009_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_010_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_011_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/images/plot_epoch_012_generated.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/dataProcessing/dataProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="345">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1574014920876" expanded="true" signature="671:752" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gan/gan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="289" column="39" lean-forward="true" selection-start-line="289" selection-start-column="39" selection-end-line="289" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1574858916717" expanded="true" signature="4009:4625" ph="..." />
+            <marker date="1574858916717" expanded="true" signature="5007:5012" ph="..." />
           </folding>
         </state>
       </provider>

@@ -6,14 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-# don't push data and lmdb
-src/gan/weights/discriminator/
-src/gan/weights/generator/
-src/gan/images/
-src/scripts/dataProcessing/data/
-landscape_paintings.tar.gz
-
-
 # Distribution / packaging
 .Python
 build/
