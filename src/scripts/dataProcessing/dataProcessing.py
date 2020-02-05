@@ -217,7 +217,7 @@ class LMDBase:
             # save the batch
             self.store_many_lmdb(images, labels)
 
-        print("All images are stored!")
+        print("All images are stored! Number: " + str(index))
         return True
 
     @staticmethod
@@ -267,10 +267,10 @@ class LMDBase:
 if __name__ == '__main__':
     print("dataProcessing loaded!")
     # create lmdb instance
-    # lmdb = LMDBase('data/lmdb', 200000 * 7500 * 10)
+    lmdb = LMDBase('data/lmdb', 200000 * 7500 * 10)
 
     # read images from folder
-    # lmdb.store_images_from_folder('data/landscape_painting', 500, 500, 100)
+    lmdb.store_images_from_folder('data/landscape_painting', 128, 128, 100)
 
     # TODO remove test code later
     # img0 = imread('data/landscape_painting/6.jpg')

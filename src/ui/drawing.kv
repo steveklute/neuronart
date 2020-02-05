@@ -1,0 +1,185 @@
+<MidButton@Button>:
+    size_hint_y: None
+    height: 50
+
+<ParameterSlider@Slider>:
+    size_hint_y: None
+    height: 50
+
+<Interface>:
+    id: interface
+    cols: 2
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba: 0, 0, 0, 1
+            Rectangle:
+                # self here refers to the widget i.e BoxLayout
+                pos: self.pos
+                size: self.size
+        size_hint: (None, 1.0)
+        do_scroll_x: False
+        do_scroll_y: True
+        width: 200
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: (None, 1.0)
+            width: 200
+            Label:
+                text: 'File'
+                color: (1,0.5,0.5,1)
+                text_size: self.size
+                font_size: 25
+            MidButton:
+                id: generate_btn
+                text: 'generate image'
+                on_press: interface.generate_img(draw_widget)
+                disabled: interface.model_loaded is False
+            MidButton:
+                id: load_model_btn
+                text: 'load model'
+                on_press: interface.load_model()
+            MidButton:
+                id: repaint_btn
+                text: 'repaint image'
+                on_press: draw_widget.paint_image()
+                disabled: interface.image_generated is False
+            MidButton:
+                id: undo_btn
+                text: 'undo last step'
+                on_press: interface.undo_step(draw_widget)
+                disabled: interface.undo_possible is False
+            MidButton:
+                id: save_btn
+                text: 'save image'
+                on_press: interface.show_save()
+                disabled: interface.image_generated is False
+            Label:
+                text: 'Filters'
+                color: (1,0.5,0.5,1)
+                text_size: self.size
+                font_size: 25
+            BoxLayout:
+                height: 40
+                orientation: 'horizontal'
+                Label:
+                    id: average_value_desc
+                    text: 'kernel size:'
+                Label:
+                    id: average_value_text
+                    text: "width: {}".format(average_size_slider.value)
+            ParameterSlider:
+                id: average_size_slider
+                min: 1
+                max: 15
+                value: 3
+                step: 2
+            MidButton:
+                id: average_btn
+                text: 'average image'
+                on_press: interface.average_image(draw_widget, average_size_slider.value)
+                disabled: interface.image_generated is False
+            MidButton:
+                id: gaussian_btn
+                text: 'gaussian filter image'
+                on_press: interface.gaussian_image(draw_widget, average_size_slider.value)
+                disabled: interface.image_generated is False
+            MidButton:
+                id: median_btn
+                text: 'median filter image'
+                on_press: interface.median_image(draw_widget, average_size_slider.value)
+                disabled: interface.image_generated is False
+            ParameterSlider:
+                id: bilateral_pixel_diameter_slider
+                min: 1
+                max: 45
+                value: 15
+                step: 2
+            BoxLayout:
+                height: 40
+                orientation: 'horizontal'
+                Label:
+                    id: bilateral_pixel_diameter_desc
+                    text: 'Pixel Diameter:'
+                Label:
+                    id: bilateral_pixel_diameter_value
+                    text: "width: {}".format(bilateral_pixel_diameter_slider.value)
+            ParameterSlider:
+                id: bilateral_sigma_slider
+                min: 1
+                max: 150
+                value: 75
+                step: 2
+            BoxLayout:
+                height: 40
+                orientation: 'horizontal'
+                Label:
+                    id: bilateral_sigma_desc
+                    text: 'Sigma value:'
+                Label:
+                    id: bilateral_sigma_text
+                    text: "width: {}".format(bilateral_sigma_slider.value)
+            MidButton:
+                id: bilateral_btn
+                text: 'bilateral filter image'
+                on_press: interface.bilateral_filter_image(draw_widget, bilateral_pixel_diameter_slider.value, bilateral_sigma_slider.value, bilateral_sigma_slider.value)
+                disabled: interface.image_generated is False
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: (1.0, 1.0)
+        AnchorLayout:
+            anchor_x: 'center'
+            anchor_y: 'center'
+            ScrollView:
+                do_scroll_x: True
+                do_scroll_y: True
+                DrawingWidget:
+                    orientation: 'vertical'
+                    id: draw_widget
+
+
+<LoadDialog>:
+    BoxLayout:
+        size: (300, 300)
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserListView:
+            id: filechooser
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                on_release: root.cancel()
+
+            Button:
+                text: "Load"
+                on_release: root.load(filechooser.path, filechooser.selection)
+
+<SaveDialog>:
+    text_input: text_input
+    BoxLayout:
+        size: (300, 300)
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserListView:
+            id: filechooser
+            on_selection: text_input.text = self.selection and self.selection[0] or ''
+
+        TextInput:
+            id: text_input
+            size_hint_y: None
+            height: 30
+            multiline: False
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                on_release: root.cancel()
+
+            Button:
+                text: "Save"
+                on_release: root.save(filechooser.path, text_input.text)
