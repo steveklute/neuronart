@@ -37,8 +37,8 @@ lmdb.store_images_from_folder('data/landscape_painting', 128, 128, 100)
 
 By executing the gan_mult_gpus.py script, the GAN will be trained. Before training, the parameter in the main method must be adjusted. The resolution, number and location of the images need to be changed. Changing the number of epochs, batches and latent_dim size can influence the result of the training. If the workload is to high reduce image size, number epochs and batch size.
 
-For the training is a workstation with a powerful gpu recommended. The script can use theoretically multiple gpus, but this is not tested. Depending on computing power the trainig can last a multiple hours to days.
+For the training is a workstation with a powerful gpu recommended. The script can use theoretically multiple gpus, but this is not tested. Depending on computing power the training can last a multiple hours to days.
 
 ### Generate images using GUl
 
-After training the GAN new images can be generated using the created models/weights and the GUI. Before starting the GUI the path to the models and weights must be adjusted in the main_ui.py script. With the GI images can now be created, edited using multiple filters and be saved.
+After training the GAN new images can be generated using the created models/weights and the GUI. Before starting the GUI the path to the models and weights must be adjusted in the main_ui.py script. With the GUI images can now be created, edited using multiple filters and be saved.
